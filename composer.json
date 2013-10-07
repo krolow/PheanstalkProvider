@@ -1,0 +1,20 @@
+{
+    "name" : "cobaia/pheanstalk-provider",
+    "description" : "Dependecy Injection provider for Pheanstalk to use in Silex or Cilex",
+    "keywords" : ["pheansltal", "beanstalkd", "queue", "provider", "silex", "cilex"],
+    "homepage" : "http://github.com/krolow/PheanstalkProvider",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Vinícius Krolow",
+            "email" : "krolow@gmail.com"
+        }
+    ],
+    "require" : {
+        "php": ">=5.3.3",
+        "pda/pheanstalk": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Cobaia": "src/" }
+    }
+}
