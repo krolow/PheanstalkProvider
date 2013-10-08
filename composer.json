@@ -12,7 +12,8 @@
     ],
     "require" : {
         "php": ">=5.4",
-        "pda/pheanstalk": "2.1.0"
+        "pda/pheanstalk": ">=2.1.0",
+        "silex/silex": ">=1.0"
     },
     "autoload": {
         "psr-0": { "Cobaia": "src/" }

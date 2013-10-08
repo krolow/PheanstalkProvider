@@ -4,7 +4,7 @@ use Silex\ServiceProviderInterface;
 use Pheanstalk_Pheanstalk;
 use Pheanstalk_PheanstalkInterface;
 
-class PheanstalkProvider implements SilexProvider
+class PheanstalkProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
