@@ -1,4 +1,5 @@
 <?php
+namespace Cobaia\Pheanstalk\Provider\Silex;
 use Silex\Application;
 use Silex\ServiceProviderInterface;    
 use Pheanstalk_Pheanstalk;
